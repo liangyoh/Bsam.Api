@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bsam.Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:Bsam.Swagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            这是一个api的注释
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
