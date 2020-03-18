@@ -1,0 +1,16 @@
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\Bsam.Core.Model.deps.json
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\Bsam.Core.Model.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\Bsam.Core.Model.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\Bsam.Core.Model.xml
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.AssemblyInfoInputs.cache
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.AssemblyInfo.cs
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Model.deps.json
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Model.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Model.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Model.xml
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.csprojAssemblyReference.cache
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Common.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\bin\Debug\netcoreapp3.1\netcoreapp3.1\Bsam.Core.Common.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.Model\obj\Debug\netcoreapp3.1\Bsam.Core.Model.csproj.CopyComplete

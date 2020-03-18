@@ -1,0 +1,14 @@
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.IRepository.deps.json
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.IRepository.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.IRepository.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.Common.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.Model.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.Model.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.Model.xml
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\bin\Debug\netcoreapp3.1\Bsam.Core.Common.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.csprojAssemblyReference.cache
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.AssemblyInfoInputs.cache
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.AssemblyInfo.cs
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.csproj.CopyComplete
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.IRepository\obj\Debug\netcoreapp3.1\Bsam.Core.IRepository.pdb

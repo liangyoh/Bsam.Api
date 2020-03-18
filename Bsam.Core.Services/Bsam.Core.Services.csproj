@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Projects\Core\Bsam.Api\Bsam.Api\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bsam.Core.IRepository\Bsam.Core.IRepository.csproj" />
+    <ProjectReference Include="..\Bsam.Core.IServices\Bsam.Core.IServices.csproj" />
+  </ItemGroup>
+
+</Project>

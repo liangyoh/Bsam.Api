@@ -1,0 +1,7 @@
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\bin\Debug\netcoreapp3.1\Bsam.Core.Common.deps.json
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\bin\Debug\netcoreapp3.1\Bsam.Core.Common.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\bin\Debug\netcoreapp3.1\Bsam.Core.Common.pdb
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\obj\Debug\netcoreapp3.1\Bsam.Core.Common.AssemblyInfoInputs.cache
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\obj\Debug\netcoreapp3.1\Bsam.Core.Common.AssemblyInfo.cs
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\obj\Debug\netcoreapp3.1\Bsam.Core.Common.dll
+D:\Projects\Core\Bsam.Api\Bsam.Core.Common\obj\Debug\netcoreapp3.1\Bsam.Core.Common.pdb

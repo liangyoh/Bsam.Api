@@ -1,0 +1,2438 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bsam.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="P:Bsam.Core.Model.Book.bID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bsubmitter">
+            <summary>
+            发布人
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.btitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bcategory">
+            <summary>
+            文章分类
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bcontent">
+            <summary>
+            文章内容
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.btraffic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bcommentNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bUpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.bRemark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Book.IsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.BookList.Book">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.BookList.trimArray">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.BookList.remove">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.BookList.unique">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Love">
+            <summary>
+            这是爱
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Love.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Love.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Love.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.MessageModel`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.MessageModel`1.success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.MessageModel`1.msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.MessageModel`1.response">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Advertisement">
+            <summary>
+            Advertisement:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.ImgUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.Url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Advertisement.Createdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.BlogArticle">
+            <summary>
+            BlogArticle:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bsubmitter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.btitle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bcategory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bcontent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.btraffic">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bcommentNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bUpdateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bCreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.bRemark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.BlogArticle.IsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Guestbook">
+            <summary>
+            Guestbook:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.blogId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.createdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.QQ">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.body">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.ip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Guestbook.isshow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Bill_Dtl">
+            <summary>
+            Inv_Bill_Dtl:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.BillId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.MitemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.PlanQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.ActualQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Dtl.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Bill_Hd">
+            <summary>
+            Inv_Bill_Hd:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.BillType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.PlanQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.ActualQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.SrcBillId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.SrcBillNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.InvId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.InvCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.InvName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.InvAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.RcvUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.RcvDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.RcvReason">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.RcvAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.BillStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Bill_Hd.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_District">
+            <summary>
+            Inv_District:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DistrictCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DistrictName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DistrictDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DistrictStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.Volume">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.VolumeUnit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_District.InvId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Inv_Info">
+            <summary>
+            Inv_Inv_Info:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.InvCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.InvName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.InvDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.InvAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.Volume">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.VolumeUnit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Inv_Info.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Loc">
+            <summary>
+            Inv_Loc:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.LocCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.LocName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.LocDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.LocStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.LocOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.Volume">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.VolumeUnit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.DistrictId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Loc.InvId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Onhand_Qty">
+            <summary>
+            Inv_Onhand_Qty:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.MitemId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.InvId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.DistrictId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.LocId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.Trans_Qty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Onhand_Qty.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl">
+            <summary>
+            Inv_Rcv_Bill_Dtl:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.BillId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.MitemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.PlanQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.ActualQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Dtl.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd">
+            <summary>
+            Inv_Rcv_Bill_Hd:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvUserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvPhone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvReason">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RcvAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RentSubject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RentUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RentUserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RentPhone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.RrcBillId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.PlanRtnDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.ActualRtnDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.BillStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Inv_Rcv_Bill_Hd.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Module">
+            <summary>
+            接口API地址信息表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.ParentId">
+            <summary>
+            父ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.LinkUrl">
+            <summary>
+            菜单链接地址
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Area">
+            <summary>
+            区域名称
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Controller">
+            <summary>
+            控制器名称
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Action">
+            <summary>
+            Action名称
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Code">
+            <summary>
+            菜单编号
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.OrderSort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Description">
+            <summary>
+            /描述
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.IsMenu">
+            <summary>
+            是否是右侧菜单
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.Enabled">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Module.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.ModulePermission">
+            <summary>
+            菜单与按钮关系表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.ModuleId">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.PermissionId">
+            <summary>
+            按钮ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.ModulePermission.ModifyTime">
+             <summary>
+            修改时间
+             </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.OperateLog">
+            <summary>
+            OperateLog:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.IsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.Area">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.Controller">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.Action">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.IPAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.LogTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.LoginName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.OperateLog.UserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.PasswordLib">
+            <summary>
+            PasswordLib:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.PLID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.IsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plPWD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plAccountName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plErrorCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plHintPwd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plHintquestion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plCreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plUpdateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.plLastErrTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.PasswordLib.test">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Permission">
+            <summary>
+            路由菜单表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Code">
+            <summary>
+            菜单执行Action名
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Name">
+            <summary>
+            菜单显示名（如用户页、编辑(按钮)、删除(按钮)）
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.IsButton">
+            <summary>
+            是否是按钮
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.IsHide">
+            <summary>
+            是否是隐藏菜单
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Func">
+            <summary>
+            按钮事件
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Pid">
+            <summary>
+            上一级菜单（0表示上一级无菜单）
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Mid">
+            <summary>
+            接口api
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.OrderSort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Icon">
+            <summary>
+            菜单图标
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Description">
+            <summary>
+            菜单描述    
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.Enabled">
+            <summary>
+            激活状态
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Permission.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Role">
+            <summary>
+            角色表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.Name">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.Description">
+             <summary>
+            描述
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.OrderSort">
+             <summary>
+            排序
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.Enabled">
+            <summary>
+            是否激活
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Role.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.RoleModulePermission">
+            <summary>
+            按钮跟权限关联表
+            </summary>
+        </member>
+        <member name="M:Bsam.Core.Model.Models.RoleModulePermission.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.RoleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.ModuleId">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.PermissionId">
+            <summary>
+            按钮ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RoleModulePermission.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.RootEntity">
+            <summary>
+            实体根
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.RootEntity.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sfc_Customer">
+            <summary>
+            Sfc_Customer:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.CustomerCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.CustomerName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.CustomerShortName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.CustomerPhone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.CustomerWebchat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.EnterpriseName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.EnterpriseLegal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.EnterpriseAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.EnterprisePhone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Customer.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sfc_Mitem">
+            <summary>
+            Sfc_Mitem:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.MitemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.MitemName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.MitemDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.MitemType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.Brand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.Buyer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.DutyPerson">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.SupplierId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.DefaultInvId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.Uom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Mitem.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sfc_Production">
+            <summary>
+            Sfc_Production:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.ProductCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.ProductName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.ProductDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.ModelType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sfc_Production_Bom">
+            <summary>
+            Sfc_Production_Bom:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.ProductId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.MitemId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.ReqQty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.VersionDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.BatchNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sfc_Production_Bom.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.sysUserInfo">
+            <summary>
+            用户信息表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uLoginName">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uLoginPWD">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uRealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uStatus">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uRemark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uUpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uLastErrTime">
+             <summary>
+            最后登录时间 
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.uErrorCount">
+             <summary>
+            错误次数 
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.sysUserInfo.name">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_Module">
+            <summary>
+            Sys_Module:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.ModuleType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.ModuleCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.ModuleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.ModuleDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.ModuleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.Path">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl">
+            <summary>
+            Sys_Module_Config_Tmpl:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.ModuleType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.ModuleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Module_Config_Tmpl.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_Permission">
+            <summary>
+            Sys_Permission:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.PermissionName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.PermissionDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.RequestType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.ClientType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.ModuleId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_PermissionGroup">
+            <summary>
+            Sys_PermissionGroup:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.PermissionGroupName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.PermissionGroupDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_PermissionGroup.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_Permission_In_Group">
+            <summary>
+            Sys_Permission_In_Group:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission_In_Group.PermissionId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Permission_In_Group.PermissionGroupId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_Role">
+            <summary>
+            Sys_Role:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.RoleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.RoleDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_Role.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_User">
+            <summary>
+            Sys_User:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.UserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.UserAccount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.UserPwd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_UserGroup">
+            <summary>
+            Sys_UserGroup:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.UserGroupName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.UserGroupDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.DateTimeCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.UserCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.DateTimeModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.UserModified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup.OrgId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_UserGroup_In_Role">
+            <summary>
+            Sys_UserGroup_In_Role:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup_In_Role.UserGroupId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_UserGroup_In_Role.RoleId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_User_In_Group">
+            <summary>
+            Sys_User_In_Group:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User_In_Group.UserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User_In_Group.UserGroupId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Sys_User_In_Role">
+            <summary>
+            Sys_User_In_Role:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User_In_Role.UserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Sys_User_In_Role.RoleId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.Topic">
+            <summary>
+            Topic:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tLogo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tDetail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tAuthor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tSectendDetail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tIsDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tRead">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tCommend">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tGood">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tCreatetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.Topic.tUpdatetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.TopicDetail">
+            <summary>
+            TopicDetail:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.TopicId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdLogo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdContent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdDetail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdSectendDetail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdIsDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdRead">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdCommend">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdGood">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdCreatetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdUpdatetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdTop">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.TopicDetail.tdAuthor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.Models.UserRole">
+            <summary>
+            用户跟角色关联表
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.IsDeleted">
+             <summary>
+            获取或设置是否禁用，逻辑上的删除，非物理删除
+             </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.RoleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.CreateId">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.CreateBy">
+            <summary>
+            创建者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.ModifyId">
+            <summary>
+            修改ID
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.ModifyBy">
+            <summary>
+            修改者
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.Models.UserRole.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Bsam.Core.Model.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.PageModel`1.page">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.PageModel`1.pageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.PageModel`1.dataCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.PageModel`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:Bsam.Core.Model.PageModel`1.data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+    </members>
+</doc>
